@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://du6ypkhxsh0o3"]
+
+[ext_resource type="PackedScene" uid="uid://drbip8418e680" path="res://options.tscn" id="1_gaiyg"]
+
+[node name="StartScreen" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Play" type="Button" parent="."]
+offset_left = 480.0
+offset_top = 128.0
+offset_right = 672.0
+offset_bottom = 256.0
+text = "Play"
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 480.0
+offset_top = 384.0
+offset_right = 672.0
+offset_bottom = 512.0
+text = "Quit"
+
+[node name="Options" parent="." instance=ExtResource("1_gaiyg")]
+offset_left = 1080.0
+offset_top = 0.0
+offset_right = 1150.0

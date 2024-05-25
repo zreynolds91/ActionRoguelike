@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bo0c5nq138mcs"]
+
+[ext_resource type="PackedScene" uid="uid://bssb3eysxbxas" path="res://Class Select/class_select_button.tscn" id="1_f4bqn"]
+[ext_resource type="Texture2D" uid="uid://cudsopuxc5fel" path="res://Assets/MenuButtons/Bow.png" id="2_ljgxd"]
+
+[node name="RangedSelectButton" instance=ExtResource("1_f4bqn")]
+icon = ExtResource("2_ljgxd")
+icon_alignment = 1
+expand_icon = true

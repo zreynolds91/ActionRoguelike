@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddc0cgjf32y5e"]
+
+[ext_resource type="PackedScene" uid="uid://drbip8418e680" path="res://options.tscn" id="1_2d4jj"]
+[ext_resource type="PackedScene" uid="uid://df0oelwshi75v" path="res://Class Select/magic_select_button.tscn" id="2_55vpo"]
+[ext_resource type="PackedScene" uid="uid://bo0c5nq138mcs" path="res://Class Select/ranged_select_button.tscn" id="3_k8pr4"]
+[ext_resource type="PackedScene" uid="uid://bvdvuuok0dknm" path="res://Class Select/melee_select_button.tscn" id="4_k0fvy"]
+
+[node name="CharacterSelect" type="Node2D"]
+
+[node name="Buttons" type="Node" parent="."]
+
+[node name="Options" parent="Buttons" instance=ExtResource("1_2d4jj")]
+offset_left = 1080.0
+offset_top = 0.0
+offset_right = 1150.0
+
+[node name="ClassButtons" type="Node" parent="Buttons"]
+
+[node name="MagicSelectButton" parent="Buttons/ClassButtons" instance=ExtResource("2_55vpo")]
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 896.0
+offset_bottom = 384.0
+
+[node name="RangedSelectButton" parent="Buttons/ClassButtons" instance=ExtResource("3_k8pr4")]
+offset_left = 512.0
+offset_top = 256.0
+offset_right = 640.0
+offset_bottom = 384.0
+
+[node name="MeleeSelectButton" parent="Buttons/ClassButtons" instance=ExtResource("4_k0fvy")]
+offset_left = 256.0
+offset_top = 256.0
+offset_right = 384.0
+offset_bottom = 384.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 72.0
+offset_right = 704.0
+offset_bottom = 120.0
+theme_override_font_sizes/font_size = 30
+text = "Choose your path"

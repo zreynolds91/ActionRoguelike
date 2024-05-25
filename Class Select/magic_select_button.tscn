@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://df0oelwshi75v"]
+
+[ext_resource type="PackedScene" uid="uid://bssb3eysxbxas" path="res://Class Select/class_select_button.tscn" id="1_misou"]
+[ext_resource type="Texture2D" uid="uid://b7ljmaio8mgb4" path="res://Assets/MenuButtons/Staff.png" id="2_ou2gk"]
+
+[node name="MagicSelectButton" instance=ExtResource("1_misou")]
+icon = ExtResource("2_ou2gk")
+icon_alignment = 1
+expand_icon = true

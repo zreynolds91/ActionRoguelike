@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvdvuuok0dknm"]
+
+[ext_resource type="PackedScene" uid="uid://bssb3eysxbxas" path="res://Class Select/class_select_button.tscn" id="1_110dg"]
+[ext_resource type="Script" path="res://Class Select/melee_select_button.gd" id="2_7sy1e"]
+[ext_resource type="Texture2D" uid="uid://c3rp3k0v05dnb" path="res://Assets/MenuButtons/Sword.png" id="2_838ic"]
+
+[node name="MeleeSelectButton" instance=ExtResource("1_110dg")]
+icon = ExtResource("2_838ic")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("2_7sy1e")
