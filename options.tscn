@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://drbip8418e680"]
+[gd_scene load_steps=2 format=3 uid="uid://drbip8418e680"]
+
+[ext_resource type="Script" path="res://options.gd" id="1_1jq7p"]
 
 [node name="Options" type="Button"]
 offset_left = 56.0
@@ -6,3 +8,6 @@ offset_top = 32.0
 offset_right = 96.0
 offset_bottom = 64.0
 text = "Options"
+script = ExtResource("1_1jq7p")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

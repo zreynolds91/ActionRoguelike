@@ -21,12 +21,14 @@ offset_left = 768.0
 offset_top = 256.0
 offset_right = 896.0
 offset_bottom = 384.0
+script = null
 
 [node name="RangedSelectButton" parent="Buttons/ClassButtons" instance=ExtResource("3_k8pr4")]
 offset_left = 512.0
 offset_top = 256.0
 offset_right = 640.0
 offset_bottom = 384.0
+script = null
 
 [node name="MeleeSelectButton" parent="Buttons/ClassButtons" instance=ExtResource("4_k0fvy")]
 offset_left = 256.0

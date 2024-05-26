@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://bssb3eysxbxas"]
+[gd_scene load_steps=2 format=3 uid="uid://bssb3eysxbxas"]
+
+[ext_resource type="Script" path="res://Class Select/class_select_button.gd" id="1_hkjdr"]
 
 [node name="ClassSelectButton" type="Button"]
 offset_right = 128.0
 offset_bottom = 128.0
+script = ExtResource("1_hkjdr")
